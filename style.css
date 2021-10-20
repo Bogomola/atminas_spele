@@ -1,6 +1,5 @@
 .wrapper
 {
-
     background:rgba(99, 143, 17, 0.527);
 }
 h1 
@@ -13,14 +12,15 @@ ul
 {
     text-align:center;
 }
-li{
+li
+{
     display:inline-block;
 }
 .game
 {
     width:350px;
     background:black;
-    
+
 
 }
 
