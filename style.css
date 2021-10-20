@@ -8,7 +8,13 @@ h1 {
     background: chocolate;
 
 }
-
+ul{
+    text-align:center;
+}
 li{
+    display:inline-block;
+}
+
+.block{
     display:inline-block;
 }
