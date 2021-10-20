@@ -16,6 +16,13 @@ ul
 li{
     display:inline-block;
 }
+.game
+{
+    width:350px;
+    background:black;
+    
+
+}
 
 .block
 {
