@@ -2,5 +2,5 @@
 
 #piemēri
 -kā lieot GitHub
--kā lietot Visual Code ar GitHub
+-kā lietot VisualCode ar GitHub
 
