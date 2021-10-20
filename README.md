@@ -1,5 +1,6 @@
 # atminas_spele
 
-<<<<<<< HEAD
-Jekaterina tē bija!!!
+#piemēri
+-kā lieot GitHub
+-kā lietot Visual Code
 
