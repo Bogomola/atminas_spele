@@ -1,0 +1,14 @@
+.wrapper
+{
+
+    background:rgba(99, 143, 17, 0.527);
+}
+h1 {
+    text-align:center;
+    background: chocolate;
+
+}
+
+li{
+    display:inline-block;
+}
