@@ -80,13 +80,23 @@
 
     function veiktGajienu(laukums)
     {
-        console.log(laukums)
+        let atvertsJaunsLaukums = false;
+        if (atvertieLaukumi.indexOf(laukums)==-1)
+        {
+            atvertsJaunsLaukums = false
+        }
+        else
+        {
+            atvertsJaunsLaukums = true
+        }
+        
+        console.log(atvertsJaunsLaukums)
 
         document.querySelector('#'+laukums+' div').style.display="block"
         atvertieLaukumi.push(laukums)
-        if (laukumuSaturs.lenght==atvertieLaukumi.length)
+        if (laukumuSaturs.length==atvertieLaukumi.length)
         {
-            
+            alert('Apsveicam!')
         }
     }
 </script>
