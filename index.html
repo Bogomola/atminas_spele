@@ -43,23 +43,42 @@
         </div><!--beidzas header-->
 
         <div class="content">
-            <h3 class="virsraksts">Noteikts teksts</h3>
-            Vārds: <input id="vards"/>
-            <br/>
-            Vecums:<input id="vecums"/>
-            <br/>
-            Reģions:<select id='regions'>
-                <option value="Vidzeme">Vidzeme</option>
-                <option value="Kurzeme">Kurzeme</option>
-                <option value="Latgale">Latgale</option>
-                <option value="Zemgale">Zemgale</option>
+            <div class="content">
+                <h3 class="virsraksts">Noteikumu teksts</h3>
+    
+                Vārds: <input id="vards" />
+                <br />
+                Vecums: <input id="vecums" />
+                <br />
+                Reģions:
+                <select id="regions">
+                    <option value="Vidzeme">Vidzeme</option>
+                    <option value="Latgale">Latgale</option>
+                    <option value="Kurzeme">Kurzeme</option>
+                </select>
+    
+                <button onclick="saktSpeli()">Sākt</button>
+                
+            </div>
+    
+        </div><!--beidzas wrapper-->
+    
+    <script>
+    
+        function saktSpeli()
+        {
+            let vards   = document.querySelector('#vards').value
+            let vecums  = document.querySelector('#vecums').value
+            let regions = document.querySelector('#regions').value
+            
+            console.log(vards)
 
-            </select>>
-
-        </div>
-
-    </div><!--beidzas wrapper-->
-<script>
+            if(vards== '')
+            {
+                alert('Ievadi vārdu!')
+            }
+    
+        }//beidzas saktSpeli()
     /*
     let vards;
     const valsts="Latvija";
