@@ -36,3 +36,8 @@ li
     font-size: 45px;
 
 }
+.block div
+{
+    display:none;
+
+}
