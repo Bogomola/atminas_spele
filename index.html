@@ -44,12 +44,23 @@
 
         <div class="content">
             <h3 class="virsraksts">Noteikts teksts</h3>
-            
+            Vārds: <input id="vards"/>
+            <br/>
+            Vecums:<input id="vecums"/>
+            <br/>
+            Reģions:<select id='regions'>
+                <option value="Vidzeme">Vidzeme</option>
+                <option value="Kurzeme">Kurzeme</option>
+                <option value="Latgale">Latgale</option>
+                <option value="Zemgale">Zemgale</option>
+
+            </select>>
 
         </div>
 
     </div><!--beidzas wrapper-->
 <script>
+    /*
     let vards;
     const valsts="Latvija";
     vards="Laura";
@@ -80,8 +91,10 @@ let json=[
     }
 ]
 
-console.log(vards)
 
+console.log("beigas ir")
+document.querySelector(".virsraksts").innerHTML="Vārds: "+vards
+*/
 </script>
 
 </body>
