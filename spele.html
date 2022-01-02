@@ -74,6 +74,11 @@
 
     </div><!--beidzas wrapper-->
 <script>
+    let adrese = window.location.hash
+    adrese=decoceURI(adrese)
+    adrese=adrese.replace('#','')
+    adrese=adrese.split(",")
+
     let laukumuSaturs = ['😊','😍','😇','😍','😇','😊']
     let atvertieLaukumi = []
     let pedejieDivi = []
@@ -116,6 +121,11 @@
                 console.log('nav atvērti vienādi')
                 document.querySelector('#'+pedejieDivi[0]+' div').style.opacity=0.1
                 document.querySelector('#'+pedejieDivi[1]+' div').style.opacity=0.1
+                let pedejieDiviCopy=pedejieDivi
+                setTimeout( function(){
+                    document.querySelector('#'+pedejieDiviCopy[0]+' div').style.opacity=0.1
+                    document.querySelector('#'+pedejieDiviCopy[1]+' div').style.opacity=0.1 
+                },500 )
             }
 
 
